@@ -1,0 +1,168 @@
+/* Reset styles */
+*{
+  padding: 0px;
+  margin: 0px;
+box-sizing: border-box;
+}
+
+/* body styling */
+body{
+  font-family: Arial,  sans-serif;
+  line-height: 1.6em;
+  color: #fff;
+}
+
+/* top bar */
+.top-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  color: #333;
+}
+
+.top-bar .contact-info span{
+  margin-right: 20px;
+}
+
+.top-bar .contact-info i{
+  margin-right: 5px;
+}
+
+.top-bar .social-links a{
+  margin-left: 10px;
+  color: #333;
+  text-decoration: none;
+  
+}
+
+.top-bar .social-links a:hover{
+  color: #ff7e5f;
+}
+
+/* main header */
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.main-header .logo{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-header nav ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+} 
+
+.main-header nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.main-header nav ul li a:hover{
+  text-decoration: underline;
+  background-color: #ff7e5f;
+}
+
+.main-header .cta .btn{
+  background-color: white;
+  color: #ff7e5f;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.main-header .cta .btn:hover{
+  background-color: #ff7e5f;
+  color: white;
+}
+
+.hero{
+  background: rgba(0, 0, 0, 0.7) 
+  url(hero..jpg) no-repeat center center/cover ;
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+.hero h1{
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero h2{
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero .btn{
+  background: #ff7e5f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/* about section */
+.about{
+  text-align: center;
+  padding: 30px;
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.about h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.about .btn{
+  background-color: #ff7e5f;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.services{
+  text-align: center;
+  padding: 50px 20px;
+  color: #333;
+} 
+
+.services .service-cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.services .card{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.services .card img{
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.services .card h3{
+  margin-top: 15px;
+}
